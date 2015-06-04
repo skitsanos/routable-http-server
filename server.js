@@ -5,7 +5,7 @@ var app = require('app_core/app.js');
 var routes = require('app_core/app-routes.js');
 routes.owner = app;
 
-var MessagingServer = require('websocket-messaging/server.js');
+//var MessagingServer = require('websocket-messaging/server.js');
 
 routes.add('/', function ()
 {
